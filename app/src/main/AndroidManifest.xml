@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cs330_projekat">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_ikona_foreground"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CS330BoskoMarkovic4003Projekat">
+        <activity
+            android:name=".glavna_aktivnost.ForumActivity"
+            android:exported="false"
+            android:label="@string/title_activity_forum"
+            android:theme="@style/Theme.CS330BoskoMarkovic4003Projekat.NoActionBar" />
+        <activity
+            android:name=".NovNalogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".glavna_aktivnost.GlavnaAktivnostActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CS330BoskoMarkovic4003Projekat.NoActionBar" />
+        <activity
+            android:name=".LogovanjeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

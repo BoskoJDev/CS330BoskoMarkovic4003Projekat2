@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/ram"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Memorije" />
+
+    <Button
+        android:id="@+id/ssd"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="142dp"
+        android:text="SSD" />
+
+    <Button
+        android:id="@+id/maticne"
+        android:layout_width="110dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="285dp"
+        android:text="Maticne ploce" />
+
+    <Button
+        android:id="@+id/hdd"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="110dp"
+        android:text="HDD" />
+
+    <Button
+        android:id="@+id/procesori"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="110dp"
+        android:text="Procesori" />
+
+    <Button
+        android:id="@+id/graficke"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="110dp"
+        android:text="Graficke karte" />
+
+    <Button
+        android:id="@+id/napajanja"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="210dp"
+        android:text="Napajanja" />
+</RelativeLayout>
